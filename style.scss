@@ -1,6 +1,50 @@
+// _variables.scss
+
+$primary-color: #3498db;
+$navbar-bg: #f8f9fa;
+
 // styles.scss
 
+@import url('https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap');
+
 body {
-    padding-bottom: 70px; // Adjust the value based on your footer's height
+    font-family: 'Arial', sans-serif;
+    padding-bottom: 100px; // Adjust the value based on your footer's height
 }
 
+.navbar {
+    background-color: $navbar-bg;
+
+    &-brand {
+        color: $primary-color;
+        font-size: 1.5rem;
+    }
+
+    &-nav {
+        .nav-link {
+            color: $primary-color;
+            margin-right: 15px;
+            font-size: 1rem;
+        }
+    }
+}
+
+.container {
+    margin-top: 30px;
+}
+
+h2 {
+    color: $primary-color;
+}
+
+// Additional styles for other elements...
+
+footer {
+    &.bg-light {
+        background-color: $navbar-bg;
+        padding: 10px 0; // Adjust padding as needed
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
