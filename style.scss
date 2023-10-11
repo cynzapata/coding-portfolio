@@ -3,7 +3,7 @@
 $primary-color: #ffeded;
 $navbar-bg: #1e1a20;
 $hover-color: #7c6dee;
-$h3-color: #e5d4ed;
+$h3-color: #7c6dee;
 
 // styles.scss
 
@@ -16,6 +16,10 @@ body {
 }
 .navbar-toggler{
     background-color:$primary-color;
+}
+
+.container p{
+
 }
 .navbar {
     background-color: $navbar-bg;
@@ -68,6 +72,7 @@ body {
     font-size: 2.5vmin;
     cursor: pointer;
     font-family: 'Cabin', sans-serif;
+    
 }
 
 button a{
@@ -82,12 +87,14 @@ h2 {
 }
 h3 {
     color: $h3-color;
-    font-size: 3vmin;
+    font-size: 4vmin;
 }
 p {
     color: $primary-color;
     font-size: 2.7vmin;
 }
+
+
 
 .row {
     margin-bottom: 30px; // Adding margin between rows (projects)
