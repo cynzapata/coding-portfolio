@@ -3,6 +3,7 @@
 $primary-color: #ffeded;
 $navbar-bg: #1e1a20;
 $hover-color: #7c6dee;
+$h3-color: #e5d4ed;
 
 // styles.scss
 
@@ -18,13 +19,17 @@ body {
 }
 .navbar {
     background-color: $navbar-bg;
-    padding-left: 5%;
-    padding-right: 5%;
    
 
     &-brand {
         font-family: 'Cabin', sans-serif;
         color: $primary-color;
+        font-size: 1.9rem;
+    }
+
+    &-brand:hover {
+        font-family: 'Cabin', sans-serif;
+        color: $hover-color;
         font-size: 1.9rem;
     }
 
@@ -34,7 +39,12 @@ body {
             margin-right: 15px;
             font-size: 1rem;
         }
+
+        .nav-link:hover {
+            color: $hover-color;
+        }
     }
+
 }
 
 .container {
@@ -71,7 +81,8 @@ h2 {
     font-size: 10vmin;
 }
 h3 {
-    color: $primary-color;
+    color: $h3-color;
+    font-size: 3vmin;
 }
 p {
     color: $primary-color;

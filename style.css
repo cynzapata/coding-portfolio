@@ -11,18 +11,24 @@ body {
 
 .navbar {
   background-color: #1e1a20;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 .navbar-brand {
   font-family: "Cabin", sans-serif;
   color: #ffeded;
   font-size: 1.9rem;
 }
+.navbar-brand:hover {
+  font-family: "Cabin", sans-serif;
+  color: #7c6dee;
+  font-size: 1.9rem;
+}
 .navbar-nav .nav-link {
   color: #ffeded;
   margin-right: 15px;
   font-size: 1rem;
+}
+.navbar-nav .nav-link:hover {
+  color: #7c6dee;
 }
 
 .container {
@@ -59,7 +65,8 @@ h2 {
 }
 
 h3 {
-  color: #ffeded;
+  color: #e5d4ed;
+  font-size: 3vmin;
 }
 
 p {
