@@ -1,18 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap");
 body {
-  font-family: "Arial", sans-serif;
-  padding-bottom: 100px;
+  background-color: #1e1a20;
+  font-family: "Cabin", sans-serif;
+  padding-bottom: 0px;
+}
+
+.navbar-toggler {
+  background-color: #ffeded;
 }
 
 .navbar {
-  background-color: #f8f9fa;
+  background-color: #1e1a20;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .navbar-brand {
-  color: #3498db;
-  font-size: 1.5rem;
+  font-family: "Cabin", sans-serif;
+  color: #ffeded;
+  font-size: 1.9rem;
 }
 .navbar-nav .nav-link {
-  color: #3498db;
+  color: #ffeded;
   margin-right: 15px;
   font-size: 1rem;
 }
@@ -21,16 +29,42 @@ body {
   margin-top: 30px;
 }
 
-h2 {
-  color: #3498db;
+.container button:hover {
+  background: #7c6dee;
+  color: #1e1a20;
 }
 
-footer.bg-light {
-  background-color: #f8f9fa;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+.container button {
+  width: 30vh; /* Adjust the width as needed */
+  max-width: 250px; /* Set a maximum width if necessary */
+  height: 7vh; /* Adjust the height as needed */
+  color: #ffffff;
+  border-radius: 12px;
+  border-color: #ffffff;
+  background-color: #1e1a20;
+  font-size: 2.5vmin;
+  cursor: pointer;
+  font-family: "Cabin", sans-serif;
+}
+
+button a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #ffeded;
+}
+
+h2 {
+  font-family: "Cabin", sans-serif;
+  color: #7c6dee;
+  font-size: 10vmin;
+}
+
+h3 {
+  color: #ffeded;
+}
+
+p {
+  color: #ffeded;
+  font-size: 2.7vmin;
 }
 
 .row {
